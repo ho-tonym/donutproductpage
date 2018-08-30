@@ -45,12 +45,29 @@ p{
  width:90%;
 }
 
+#showcase_center{
+  background-image: url("../img/bear_donut.png");
+  background-color: #fff;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 25em;
+  max-width: 25em;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer{
  padding:30px;
 }
 
 #logo img{
-  width:125px;
+  width:50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -81,6 +98,33 @@ footer{
   max-height:50px;
 }
 
+#contact{
+  background:url(../img/last_image.jpg);
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+#last_image {
+  background-image: url("../img/last_image.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#last_image_text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
 /* #contact{
  background:url(../img/donut_candy.jpg);
  padding:40px;
@@ -101,13 +145,8 @@ footer{
 
 
 /* use em for scalability */
-/*
-.showcase-center img{
-  width:10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
+
+
 
 /* background:url(../img/image4.jpg);
   width: 100%;
