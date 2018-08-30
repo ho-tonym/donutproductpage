@@ -26,6 +26,12 @@ p{
 
 }
 
+.center_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .navbar-default{
  background:#fff;
  border:0;
@@ -45,32 +51,12 @@ p{
  width:90%;
 }
 
-#showcase_center{
-  background-image: url("../img/bear_donut.png");
-  background-color: #fff;
-
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 25em;
-  max-width: 25em;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 footer{
  padding:30px;
 }
 
 #logo img{
   width:50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container{
@@ -106,10 +92,24 @@ footer{
   border-bottom:#333 7px solid;
 }
 
-#last_image {
-  background-image: url("../img/last_image.jpg");
-  background-color: #cccccc;
-  height: 500px;
+/* #showcase_center{
+  background-image: url("../img/bear_donut.png");
+  background-color: #fff;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 25em;
+  max-width: 25em;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.background_image{
+  background-color: #FFF;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
