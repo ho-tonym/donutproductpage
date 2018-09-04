@@ -32,6 +32,7 @@ p{
   margin-right: auto;
 }
 
+
 .navbar-default{
  background:#fff;
  border:0;
@@ -92,28 +93,23 @@ footer{
   border-bottom:#333 7px solid;
 }
 
-/* #showcase_center{
-  background-image: url("../img/bear_donut.png");
-  background-color: #fff;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 25em;
-  max-width: 25em;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .background_image{
   background-color: #FFF;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+/* BUY BUTTON */
+.buy_button{
+  max-width: 5em;
+  border: 0;
+  background: Transparent;
+}
+
+.buy_button p{
+  color: white;
+  font-size: 50%;
 }
 
 #last_image_text{
@@ -123,32 +119,20 @@ footer{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 50px;
 }
-/* #contact{
- background:url(../img/donut_candy.jpg);
- padding:40px;
 
+.s1{
+  max-width: 540px;
+  /* height:100%; */
+  object-fit:cover;
+}
 
- width: 500px;
- height: 500px;
- background-size: contain;
- background-repeat: no-repeat;
- /* resize: both; */
- /* overflow: scroll;
+.s2_img{
+  height:200px;
+  object-fit:cover;
+}
 
- display: block;
- margin-left: auto;
- margin-right: auto;
-} */
-
-
-
-/* use em for scalability */
-
-
-
-/* background:url(../img/image4.jpg);
-  width: 100%;
-height: 100%;
-background-size:cover; */
+.s3_img{
+  height:20em;
+  object-fit:cover;
+}
