@@ -92,6 +92,7 @@ footer{
 .s1{
   max-width: 100%;
   object-fit:cover;
+    height: auto;
 }
 
 /* Section 2 */
@@ -104,8 +105,12 @@ footer{
 /* Section 3 */
 
 .s3_img{
-  height:20em;
+    max-width:100%;
   object-fit:cover;
+}
+
+.text_70{
+  max-width: 70%
 }
 
 /* Final Section */
@@ -146,3 +151,11 @@ footer{
   color: white;
 }
 /*  */
+
+@media screen and (orientation: portrait) {
+
+}
+
+@media screen and (orientation: landscape) {
+
+}
