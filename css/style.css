@@ -38,6 +38,7 @@ p{
  border:0;
 }
 
+
 .navbar-brand{
  font-size:20px;
  color:#000 !important;
@@ -100,13 +101,7 @@ footer{
   /* max-height:50px; */
 }
 
-
 /* Section 3 */
-
-/* .s3_img{
-  height:200px;
-  object-fit:cover;
-} */
 
 .s3_img{
   height:20em;
