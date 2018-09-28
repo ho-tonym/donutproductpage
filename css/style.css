@@ -122,6 +122,7 @@ p{
 .s4 img{
   max-width:100%;
 }
+
 .m_width_70{
   max-width: 70%
 }
@@ -186,24 +187,34 @@ footer{
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
+/* altered to be desktop first */
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .s4 img{
+    height: 110px;
+    width:100%;
+  }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+  .s4 p{
+    display: none;
+  }
+  .s4 h2{
+        display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
 
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
 
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
 
 }
 
