@@ -122,16 +122,46 @@ footer{
   position: relative;
 }
 
-.buy_button{
-  max-width: 5em;
+/* .buy_button{ */
+  /* max-width: 5em; */
+  /* background: transparent;
   border: 0;
-  background: Transparent;
+  background-image: url(../img/button2.png);
+  background-size: 100%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  width: auto;
 }
 
 .buy_button p{
   color: white;
-  font-size: 50%;
+  font-size: 100%;
+  top: 50%;
+  bottom: 50%;
+} */
+.btn_1{
+  border-radius: 50px;
+  background-color: #ED6B74;
+  color:#fff;
+  border-color: #fff;
+
+  border-style: solid;
+  outline: 0;
+  height: 50px;
+  width: 100px;
 }
+.btn_1:hover{
+  background-color: #fff;
+  color: #ED6B74;
+  border-color: #ED6B74;
+}
+.btn_1:active{
+  background-color: #ED6B74;
+  color: #fff;
+  border-color: #fff;
+}
+
+
 /*
 #final_section{
    background-image: url(./img/final.jpg);
@@ -150,12 +180,38 @@ footer{
   transform: translate(-50%, -50%);
   color: white;
 }
-/*  */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
 
 @media screen and (orientation: portrait) {
 
 }
 
 @media screen and (orientation: landscape) {
-
+  img{
+    max-height:50%;
+    width: auto;
+  }
 }
