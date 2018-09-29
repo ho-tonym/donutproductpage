@@ -51,11 +51,11 @@ p{
 }
 /* hover */
 .icon-bar:nth-child(2) {
-  width: 0px;
+  width: 22px;
   transition: ease all .15s;
 }
 .navbar-toggle:hover>.icon-bar:nth-child(2) {
-  width: 22px;
+  width: 0px;
   transition: ease all .15s;
 }
 /* bar animation when clicked */
