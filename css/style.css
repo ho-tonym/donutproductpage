@@ -3,11 +3,9 @@ body{
   font-size:16px;
   font-family: 'Lato', sans-serif;
 }
-
 h1,h2,h3,h4,h5,h6{
  font-weight:700;
 }
-
 p{
  font-size: 90%;
  padding: 5px;
@@ -15,7 +13,6 @@ p{
  font-weight: normal;
  color: #B0B0B0;
 }
-
 .center_img{
   display: block;
   margin-left: auto;
@@ -26,7 +23,6 @@ p{
  background:#fff;
  border:0;
 }
-
 .navbar-brand{
  font-size:20px;
  color:#000;
@@ -74,14 +70,11 @@ p{
   transform: rotate(0deg) translate(0px, 0px);
   transition: ease all .2s;
 }
-
 /* Section General */
-
 #showcase {
  text-align: center;
  background-color: #fff;
 }
-
 /* Padding */
 .top-pad{
   padding-top: 5em;
@@ -95,18 +88,18 @@ p{
   padding-bottom: 1.5em;
 }
 /* Section 1 */
-.s1 img{
+#s1 img{
   height:auto;
   max-width: 90%;
 }
 /* Section 2 */
-.s2 img{
+#s2 img{
   height: auto;
   /* max-width:100%; */
   max-height:50px;
 }
 /* Section 3 */
-.s3 img{
+#s3 img{
   max-width:100%;
 }
 /* Section 4 */
@@ -116,11 +109,11 @@ p{
   overflow:hidden; /*hide bounds of image */
   margin:0;   /*reset margin of figure tag*/
 }
-.s4 span{
+#s4 span{
   overflow:hidden; /*hide bounds of image */
   margin:0;
 }
-.s4 img{
+#s4 img{
   max-width:100%;
 }
 .m_width_70{
