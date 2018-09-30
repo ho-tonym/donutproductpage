@@ -193,15 +193,10 @@ p{
 footer{
  padding:30px;
 }
-
+/* Desktop First */
 /* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default in Bootstrap */
-/* altered to be desktop first */
 /* Small devices (landscape phones, 576px and down) */
-@media (max-width: 576px) {
-
-}
-
+@media (max-width: 576px) {}
 /* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) {
   .s4 img{
@@ -217,21 +212,9 @@ footer{
     display: none;
   }
 }
-
 /* Large devices (desktops, 992px and down) */
-@media (max-width: 992px) {
-
-}
-
+@media (max-width: 992px) {}
 /* Extra large devices (large desktops, 1200px and down) */
-@media (max-width: 1200px) {
-
-}
-
-@media screen and (orientation: portrait) {
-
-}
-
-@media screen and (orientation: landscape) {
-
-}
+@media (max-width: 1200px) {}
+@media screen and (orientation: portrait) {}
+@media screen and (orientation: landscape) {}
