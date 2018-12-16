@@ -20,6 +20,11 @@ p{
  font-weight: normal;
  color: #B0B0B0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+
 .center_img{
   display: block;
   margin-left: auto;
