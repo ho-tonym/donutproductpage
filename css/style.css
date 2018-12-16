@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  transition: ease-out all .25s;
 }
 
 body{
@@ -15,7 +16,7 @@ h1,h2,h3,h4,h5,h6{
 p{
  font-size: 14px;
  padding: 5px;
- font-weight: 400;
+ /* font-weight: 400; */
  font-weight: normal;
  color: #B0B0B0;
 }
@@ -51,30 +52,30 @@ p{
 /* hover */
 .icon-bar:nth-child(2) {
   width: 22px;
-  transition: ease all .15s;
+  transition: inherit;
 }
 .navbar-toggle:hover>.icon-bar:nth-child(2) {
   width: 0px;
-  transition: ease all .15s;
+  transition: inherit;
 }
 /* bar animation when clicked */
 .navbar-toggle:not(.collapsed) .icon-bar:nth-child(1) {
   transform: rotate(45deg) translate(5px, 4px);
-  transition: ease all .15s;
+  transition: inherit;
 }
 .navbar-toggle:not(.collapsed) .icon-bar:nth-child(2) {
   opacity: 0;
-  transition: ease all .15s;
+  transition: inherit;
 }
 .navbar-toggle:not(.collapsed) .icon-bar:nth-child(3) {
   transform: rotate(-45deg) translate(4px, -4px);
-  transition: ease all .15s;
+  transition: inherit;
 }
 /* return anim */
 .navbar-toggle .icon-bar {
   background-color: #fff;
   transform: rotate(0deg) translate(0px, 0px);
-  transition: ease all .2s;
+  transition: inherit;
 }
 /* Section General */
 #showcase {
@@ -103,10 +104,10 @@ p{
   max-width: 90%;
   margin: 0 auto;
 }
-#s1 img{
+/* #s1 img{
   height:auto;
   max-width: 90%;
-}
+} */
 /* Section 2 */
 #s2 img{
   height: auto;
@@ -146,7 +147,7 @@ button[type="submit"]{
   outline: 0;
   height: 20%;
   width: 40%;
-  transition: all 0.3s ease-out;
+  transition: inherit;
 }
 button[type="submit"]:hover{
   background-color: #fff;
@@ -190,7 +191,7 @@ button[type="submit"]:active{
 footer{
  padding:30px;
 }
-
+/*  */
 
 @media screen and (max-width: 529px)
 {
