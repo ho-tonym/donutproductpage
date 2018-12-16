@@ -252,6 +252,64 @@ footer{
   transition: all 0.5s ease;
 }
 
+.pack:hover {
+  transform: scale(1.1);
+}
+.pack:hover .title {
+  background: #a78be8;
+  transition: inherit;
+}
+.frame p .cost {
+  display: block;
+  font-weight: 700;
+  font-size:
+}
+.frame hr {
+  color: #eee;
+  border: 0;
+  height: 0;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+  width: 60%;
+  margin: 2px auto;
+}
+.frame hr:nth-of-type(2n+2) {
+  width: 50%;
+}
+.pro {
+  margin: 0 10px;
+}
+/* pro */
+.pro:hover ~ .stats .stat1 .progress .value {
+  width: 50%;
+}
+.pro:hover ~ .stats .stat2 .progress .value {
+  width: 66%;
+}
+.pro:hover ~ .stats .stat3 .progress .value {
+  width: 42%;
+}
+/* basic */
+.pack.basic:hover ~ .stats .stat1 .progress .value {
+  width: 2%;
+}
+.pack.basic:hover ~ .stats .stat2 .progress .value {
+  width: 5%;
+}
+.pack.basic:hover ~ .stats .stat3 .progress .value {
+  width: 7%;
+}
+/* premium */
+.pack.premium:hover ~ .stats .stat1 .progress .value {
+  width: 100%;
+}
+.pack.premium:hover ~ .stats .stat2 .progress .value {
+  width: 100%;
+}
+.pack.premium:hover ~ .stats .stat3 .progress .value {
+  width: 100%;
+}
+/*  */
 
 
 
