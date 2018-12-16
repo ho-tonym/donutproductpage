@@ -96,13 +96,11 @@ p{
 /* Section 1 */
 #s1{
   background-position: center;
-  /* background-size:cover; */
   background-repeat:no-repeat;
   background-image: url("../img/s1.jpg");
   height: 624px;
   width: 529px;
-  max-height: 624px;
-  max-width: 529px;
+  max-width: 90%;
   margin: 0 auto;
 }
 #s1 img{
@@ -192,11 +190,19 @@ button[type="submit"]:active{
 footer{
  padding:30px;
 }
-/* Desktop First */
-/* Extra small devices (portrait phones, less than 576px) */
-/* Small devices (landscape phones, 576px and down) */
-@media (max-width: 576px) {}
-/* Medium devices (tablets, 768px and down) */
+
+
+@media screen and (max-width: 529px)
+{
+  #s1{
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+
+}
+
 @media (max-width: 768px) {
   .s4 img{
     display:block; /*remove inline-block spaces*/
