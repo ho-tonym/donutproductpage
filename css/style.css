@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body{
   margin-top:70px;
   font-size:16px;
@@ -7,7 +13,7 @@ h1,h2,h3,h4,h5,h6{
  font-weight:700;
 }
 p{
- font-size: 90%;
+ font-size: 14px;
  padding: 5px;
  font-weight: 400;
  font-weight: normal;
@@ -88,6 +94,19 @@ p{
   padding-bottom: 1.5em;
 }
 /* Section 1 */
+#s1{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image: url("../img/s1.jpg");
+  height: 624px;
+  width: 529px;
+  max-height: 624px;
+  max-width: 529px;
+}
 #s1 img{
   height:auto;
   max-width: 90%;
@@ -103,12 +122,6 @@ p{
   max-width:100%;
 }
 /* Section 4 */
-#s4_span{
-  background: url('../img/s4_3.jpg');
-  width:300px; /*container-width*/
-  overflow:hidden; /*hide bounds of image */
-  margin:0;   /*reset margin of figure tag*/
-}
 #s4 span{
   overflow:hidden; /*hide bounds of image */
   margin:0;
@@ -126,7 +139,7 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.btn_1{
+button[type="submit"]{
   border-radius: 50px;
   background-color: #ED6B74;
   color:#fff;
@@ -137,21 +150,21 @@ p{
   outline: 0;
   height: 20%;
   width: 40%;
-  font-size: 100%;
   transition: all 0.3s ease-out;
 }
-.btn_1:hover{
+button[type="submit"]:hover{
   background-color: #fff;
   color: #ED6B74;
   border-color: #ED6B74;
 }
-.btn_1:active{
+button[type="submit"]:active{
   background-color: #ED6B74;
   color: #fff;
   border-color: #fff;
 }
 #final_section{
    background-image: url('../img/final.jpg');
+   /* background-attachment: fixed; */
    height: 580px;
 }
 #final_section img{
@@ -200,10 +213,3 @@ footer{
     display: none;
   }
 }
-/*  */
-/* Large devices (desktops, 992px and down) */
-@media (max-width: 992px) {}
-/* Extra large devices (large desktops, 1200px and down) */
-@media (max-width: 1200px) {}
-@media screen and (orientation: portrait) {}
-@media screen and (orientation: landscape) {}
