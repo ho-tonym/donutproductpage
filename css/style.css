@@ -147,6 +147,8 @@ button[type="submit"]{
   outline: 0;
   height: 20%;
   width: 40%;
+  max-width: 170px;
+  min-width: 140px;
   transition: inherit;
 }
 button[type="submit"]:hover{
@@ -193,8 +195,7 @@ footer{
 }
 /*  */
 
-@media screen and (max-width: 529px)
-{
+@media screen and (max-width: 529px){
   #s1{
     background-size: 100%;
   }
@@ -204,17 +205,16 @@ footer{
 
 }
 
-@media (max-width: 768px) {
-  .s4 img{
+@media screen and (max-width: 768px){
+  #s4 img{
     display:block; /*remove inline-block spaces*/
     width:100%; /*make image streatch*/
     margin:-60% 0;
   }
-
-  .s4 p{
+  #s4 p{
     display: none;
   }
-  .s4 h2{
+  #s4 h2{
     display: none;
   }
 }
