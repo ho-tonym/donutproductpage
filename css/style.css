@@ -348,17 +348,33 @@ footer{
 .stats .stat2 {
   margin: 20px 0;
 }
-
-
 /*  */
-/* Large devices (desktops, 992px and down) */
-@media (max-width: 992px) {}
-/* Extra large devices (large desktops, 1200px and down) */
-@media (max-width: 1200px) {}
-@media screen and (orientation: portrait) {}
-@media screen and (orientation: landscape) {}
+button.learn-more {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
 
+  width: 15rem;
+  height: auto;
 
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #fff;
+  border-radius: 1.625rem;
+}
 
 
 @media screen and (max-width: 529px){
@@ -384,3 +400,7 @@ footer{
     display: none;
   }
 }
+@media (max-width: 992px) {}
+@media (max-width: 1200px) {}
+@media screen and (orientation: portrait) {}
+@media screen and (orientation: landscape) {}
