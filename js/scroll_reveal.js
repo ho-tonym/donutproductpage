@@ -1,5 +1,5 @@
 window.sr = ScrollReveal();
-// 1
+// section  1
 sr.reveal('._sr_1_text_1', {
   viewFactor: 0.2,
   duration: 1800,
@@ -22,7 +22,7 @@ sr.reveal('._sr_1_img', {
   origin:'bottom',
   distance:'5px'
 });
-// 2
+// section  2
 sr.reveal('._sr_2_1_img', {
   viewFactor: 0.2,
   duration: 1800,
@@ -41,7 +41,7 @@ sr.reveal('._sr_2_1_p', {
   origin:'bottom',
   distance:'35px'
 });
-//
+// section
 sr.reveal('._sr_2_2_img', {
   viewFactor: 0.2,
   duration: 1800,
@@ -61,7 +61,7 @@ sr.reveal('._sr_2_2_p', {
   origin:'bottom',
   distance:'35px'
 });
-//
+// section
 sr.reveal('._sr_2_3_img', {
   viewFactor: 0.2,
   duration: 1800,
@@ -81,7 +81,7 @@ sr.reveal('._sr_2_3_p', {
   origin:'bottom',
   distance:'35px'
 });
-//3
+// section 3
 sr.reveal('._sr_3_1_img', {
   viewFactor: 0.1,
   duration: 1800,
@@ -106,7 +106,7 @@ sr.reveal('._sr_3_4_img', {
   origin:'bottom',
   distance:'25px'
 });
-//4
+// section 4
 sr.reveal('._sr_4_1_img', {
   viewFactor: 0.1,
   duration: 1800,
