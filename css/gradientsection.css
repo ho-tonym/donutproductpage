@@ -13,8 +13,6 @@
   background: linear-gradient(45deg, #ED6B74, #a78be8, #37dacb);
   color: #333;
   padding: 10px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .frame p{

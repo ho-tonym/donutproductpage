@@ -1,0 +1,30 @@
+{
+  "name": "donut_bootstrap",
+  "version": "1.0.0",
+  "description": "Product Page for Donuts built with HTML, CSS, Bootstrap, ScrollReveal library. You can find out more about the scrollreveal library here: You can https://github.com/scrollreveal/scrollreveal",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ho-tonym/donutproductpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ho-tonym/donutproductpage/issues"
+  },
+  "homepage": "https://github.com/ho-tonym/donutproductpage",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {}
+}
