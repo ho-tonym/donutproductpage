@@ -1,5 +1,5 @@
 # Donuts
-Product Page for Donuts built with HTML, CSS, Bootstrap, ScrollReveal library.
+Product Page for Donuts built with HTML, CSS, Bootstrap, ScrollReveal library. There is no special functionality, just playing around with making a nice landing page.
 You can find out more about the scrollreveal library here: You can https://github.com/scrollreveal/scrollreveal
 
 # Built With
